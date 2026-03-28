@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+body{
+  font-family: "Manrope", sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5em 0.5em;
+
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: -.8pt;
+}
+
+.nav-link a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-link a:first-child
+{
+    border: 1pt solid gray;
+    padding: 0.25em .75em;
+    border-radius: 999px;
+}
+
+.nav-link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+}
+
+nav .cta{
+    background-color: black;
+    color: azure;
+    padding: 0.25em .75em;
+    border-radius: 999px;
+
+}
+
+.hero{
+    padding: 0 1em;
+}
+.container{
+    height: 89vh;
+    background-image:url(image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    padding: 1em 0;
+    gap: 20px;
+    border-radius: 12px;
+}
+.title{
+    margin: 0  auto;
+    width: 55%;
+    color: azure;
+    font-size: 36px;
+    text-align: center;
+}
+.subtitle{
+    margin: 0 auto;
+    width: 55%;
+    color: azure;
+    text-align: center;
+    font-size: 16px;
+}
+button.cta {
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+    background-color: black;
+    color: azure;
+    padding: 0.25em .75em;
+    border-radius: 999px;
+    width: fit-content;
+    margin-bottom: 150px;
+}
+
+.credit{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+}
+
+.people{
+    color: azure;
+}
+.social a{
+    color: azure;
+    text-decoration: none;
+}
+
+.social{
+    display: flex;
+    gap: 16px;
+}
+
+.desc{
+    padding: 1em;
+    display: flex;
+}
+
+.badge{
+    width: 30%;
+}
+.badge span{
+    border: 1pt solid gray;
+    padding: 0.25em .75em;
+    border-radius: 999px;
+}
+.text{
+    width:70%;
+    font-size: 20pt ;
+}
